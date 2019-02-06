@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using Timetable.Domain.Model;
 
 namespace Timetable.BusinessLogic.Lesson
 {
-    class ILessonService
+    public interface ILessonService
     {
+        IEnumerable<Domain.Model.Lesson> GetLessons();
+        void CreateLesson(Domain.Model.Lesson lesson);
     }
 }
