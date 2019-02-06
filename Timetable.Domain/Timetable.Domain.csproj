@@ -68,6 +68,8 @@
       <DependentUpon>TimetableModel.edmx.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ILessonRepository.cs" />
+    <Compile Include="Services\LessonRepository.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
