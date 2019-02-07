@@ -2,7 +2,7 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 02/06/2019 11:03:44
+-- Date Created: 02/06/2019 14:20:39
 -- Generated from EDMX file: C:\Git\Timetable\Timetable.Domain\Model\TimetableModel.edmx.edmx
 -- --------------------------------------------------
 
@@ -34,8 +34,8 @@ GO
 CREATE TABLE [dbo].[Lessons] (
     [Id] int IDENTITY(1,1) NOT NULL,
     [LessonName] nvarchar(max)  NOT NULL,
-    [StartLesson] nvarchar(max)  NOT NULL,
-    [EndLesson] nvarchar(max)  NOT NULL
+    [StartLesson] time  NOT NULL,
+    [EndLesson] time  NOT NULL
 );
 GO
 

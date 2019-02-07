@@ -14,8 +14,8 @@
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="LessonName" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="StartLesson" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="EndLesson" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="StartLesson" Type="time" Nullable="false" />
+    <Property Name="EndLesson" Type="time" Nullable="false" />
   </EntityType>
 </Schema></edmx:StorageModels>
     <!-- CSDL content -->
@@ -30,8 +30,8 @@
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="LessonName" Type="String" Nullable="false" />
-          <Property Name="StartLesson" Type="String" Nullable="false" />
-          <Property Name="EndLesson" Type="String" Nullable="false" />
+          <Property Name="StartLesson" Type="Time" Nullable="false" />
+          <Property Name="EndLesson" Type="Time" Nullable="false" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>

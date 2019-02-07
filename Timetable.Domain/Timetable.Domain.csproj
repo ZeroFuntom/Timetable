@@ -49,9 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\ITimetableContext.cs" />
     <Compile Include="Model\Lesson.cs">
       <DependentUpon>TimetableModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Model\TimetableContext.cs" />
     <Compile Include="Model\TimetableModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

@@ -16,7 +16,7 @@ namespace Timetable.Domain.Model
     {
         public int Id { get; set; }
         public string LessonName { get; set; }
-        public string StartLesson { get; set; }
-        public string EndLesson { get; set; }
+        public System.TimeSpan StartLesson { get; set; }
+        public System.TimeSpan EndLesson { get; set; }
     }
 }

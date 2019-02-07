@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
+using Timetable.Domain.Model;
 
 namespace Timetable.Domain.Services
 {
-    class ILessonRepository
+    public interface ILessonRepository
     {
+        IQueryable<Lesson> GetAll();
+        void CreateLesson(Lesson lesson);
     }
 }
