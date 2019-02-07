@@ -44,5 +44,11 @@
     <Compile Include="Lesson\LessonService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Timetable.Domain\Timetable.Domain.csproj">
+      <Project>{EAB9E4B7-244F-4785-976C-76180A549503}</Project>
+      <Name>Timetable.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
